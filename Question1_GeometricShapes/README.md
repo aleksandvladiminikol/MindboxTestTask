@@ -15,22 +15,18 @@ The main functionality is to perform operations on geometric shapes:
 
 ## Usage
 In order to use the library, clone the repository locally.
-``bash
+```bash
 git clone https://github.com/aleksandvladiminikol/GeometricShapes
 ```
 
-Open the project folder in the terminal:
-``bash
-cd GeometricShapes
-```
-
+Open the repo folder in the terminal
 In the folder with the project, open the folder with the solution:
-``bash
-cd src
+```bash
+cd Question1_GeometricShapes/src/
 ```
 
 Next, choose a folder to store your local nuget packages, save that path and run it:
-``zsh
+```bash
 dotnet pack "/Users/AnyUser/LocalNugetSource"
 ```
 
