@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShapes", "src/GeometricShapes.csproj", "{DC7C6A81-6B6B-4F10-B779-D908E9C7810E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{489E9FE7-B9C7-4DA1-B44E-559B1E268F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShapesTests", "tests\GeometricShapesTests\GeometricShapesTests.csproj", "{D32AAE58-E1B2-4A68-842C-5C61CA7E0790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7C6A81-6B6B-4F10-B779-D908E9C7810E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7C6A81-6B6B-4F10-B779-D908E9C7810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7C6A81-6B6B-4F10-B779-D908E9C7810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7C6A81-6B6B-4F10-B779-D908E9C7810E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32AAE58-E1B2-4A68-842C-5C61CA7E0790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32AAE58-E1B2-4A68-842C-5C61CA7E0790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32AAE58-E1B2-4A68-842C-5C61CA7E0790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32AAE58-E1B2-4A68-842C-5C61CA7E0790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D32AAE58-E1B2-4A68-842C-5C61CA7E0790} = {489E9FE7-B9C7-4DA1-B44E-559B1E268F54}
+	EndGlobalSection
+EndGlobal
