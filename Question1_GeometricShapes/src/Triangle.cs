@@ -3,7 +3,7 @@ using GeometricShapes.Utils;
 
 namespace GeometricShapes;
 
-public class Triangle : Shapes
+public class Triangle : Shape
 {
     public double A { get; }
     public double B { get; }
@@ -15,7 +15,7 @@ public class Triangle : Shapes
         C = c;
         ShapeValidation();
     }
-    protected sealed override void ShapeValidation()
+    public sealed override void ShapeValidation()
     {
         if (!(A > 0 && B > 0 && C > 0))
             throw new ArgumentException("Triangle arguments should be positive");

@@ -1,9 +1,9 @@
 using System;
 namespace GeometricShapes.Abstractions
 {
-    public abstract class Shapes
+    public abstract class Shape: IShape
     {
         public abstract double CalculateArea();
-        protected abstract void ShapeValidation();
+        public abstract void ShapeValidation();
     }
 }

@@ -3,7 +3,7 @@ using GeometricShapes.Utils;
 
 namespace GeometricShapes;
 
-public class Circle : Shapes
+public class Circle : Shape
 {
     public double R { get; }
     public Circle(double r)
@@ -17,7 +17,7 @@ public class Circle : Shapes
         return AreaCalculatingFormulas.CalculateArea(R);
     }
 
-    protected sealed override void ShapeValidation()
+    public sealed override void ShapeValidation()
     {
         if (R <= 0)
         {
